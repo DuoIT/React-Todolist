@@ -7,11 +7,12 @@ import TodoItem from './components/TodoItem';
     super();
     this.TodoItems = [
         {title: 'TodoList1', isComplete:true},
-        {title: 'TodoList2'},
+        {title: 'TodoList2', isComplete:true},
         {title: 'TodoList3'}
     ];
   }
   render() {
+    
     return (
        <div className="App">
          {this.TodoItems.map((item, index)=> <TodoItem key={index} item={item}/>)}

@@ -9,3 +9,7 @@
     text-decoration: line-through;
     opacity: .3;
 }
+
+.TodoItem-delete{
+    text-decoration: aqua;
+}
